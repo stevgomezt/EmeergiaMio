@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Emergía</title>
+</head>
+
+<body>
+    <section id="sidebar">
+        <a href="/index.html" class="brand">
+            <img src="/img/emergia/logo.svg" alt="" class="img-full" />
+            <img src="/img/emergia/icono.png" alt="" class="img-redu" />
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="/index.html">
+                    <i class="bx bxs-home"></i>
+                    <span class="text">Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/2analiticaAvanzada/analiticaAvanzada.html">
+                    <i class="bx bxs-pie-chart-alt-2"></i>
+                    <span class="text">Analítica <br />
+                        Avanzada</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/1modeloAnaliticaContactabilidad/modeloAnaliticaContactabilidad.html">
+                    <i class="bx bxs-bar-chart-alt-2"></i>
+                    <span class="text">Modelo <br />
+                        Analítica Contactabilidad</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/4procesoDigitalIntegral/procesoDigitalIntegral.html">
+                    <i class="bx bxs-message-dots"></i>
+                    <span class="text">Proceso <br />
+                        Digital Integral</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/3marcadorDinamico/marcadorDinamico.html">
+                    <i class="bx bxs-phone-call"></i>
+                    <span class="text">Marketing <br />
+                        Analitico</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/6moduloAnaliticoComercial/moduloAnaliticoComercial.html">
+                    <i class="bx bx-user-plus"></i>
+                    <span class="text">Módulo Analítico<br />
+                        Comercial</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/5perfilamientoAnaliticoColaboradores/perfilamientoAnaliticoColaboradores.html">
+                    <i class="bx bx-grid"></i>
+                    <span class="text">Perfilamiento <br />
+                        Analítico Colaborador</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="/vistas/7casosExito/casosExito.html">
+                    <i class='bx bx-check-square'></i>
+                    <span class="text">Casos de éxito</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="content">
+        <nav>
+            <i class="bx bx-menu"></i>
+            <form action="#">
+                <div class="form-input">
+                    <button type="submit" class="search-btn" style="display: none">
+                        <i class="bx bx-search"></i>
+                    </button>
+                </div>
+            </form>
+        </nav>
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Casos de éxito</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="#">Lista</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion casos-exito" id="accordion">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button casos-exito-text" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Banco 1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <strong class="casos-exito-text">Tipo &nbsp;: &nbsp;</strong>Venta - Productos
+                            Financieros<br>
+                            <strong class="casos-exito-text">Campaña &nbsp;: &nbsp;</strong>TDC<br>
+                            <strong class="casos-exito-text">Indicador &nbsp;: &nbsp;</strong>Efectividad<br>
+                            <strong class="casos-exito-text">Pre-implementación &nbsp;: &nbsp;</strong>12,1%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso1"></div>
+                            </div>
+                            <strong class="casos-exito-text">Post-Implementación &nbsp;: &nbsp;</strong>16,9%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso2"></div>
+                            </div>
+                            <strong class="casos-exito-text">Porcentaje de Variación &nbsp;: &nbsp;</strong>39,7%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso3"></div>
+                            </div>
+                            <strong class="casos-exito-text">Perfil &nbsp;: &nbsp;</strong>A<br>
+                            <strong class="casos-exito-text">Características &nbsp;: &nbsp;</strong><br>
+                            <span>Clientes establecidos como grupo de Riesgo G4.</span><br>
+                            <span>Clientes sin creditos en Bancolombia o el mercado.</span><br>
+                            <span>Clientes con ocupación de Empleados.</span><br>
+                            <span>Clientes en Unión Libre.</span><br>
+                            <span>Clientes del sexo Masculino.</span><br>
+                            <span>Cupos aprobados en rangos entre 700.000 a 1.500.000.</span><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed casos-exito-text" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Banco 2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <strong class="casos-exito-text">Tipo &nbsp;: &nbsp;</strong>Venta - Cross Selling<br>
+                            <strong class="casos-exito-text">Campaña &nbsp;: &nbsp;</strong>Rediferidos<br>
+                            <strong class="casos-exito-text">Indicador &nbsp;: &nbsp;</strong>Efectividad<br>
+                            <strong class="casos-exito-text">Pre-implementación &nbsp;: &nbsp;</strong>24,8%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso4"></div>
+                            </div>
+                            <strong class="casos-exito-text">Post-Implementación &nbsp;: &nbsp;</strong>30,24%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso5"></div>
+                            </div>
+                            <strong class="casos-exito-text">Porcentaje de Variación &nbsp;: &nbsp;</strong>21,9%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso6"></div>
+                            </div>
+                            <strong class="casos-exito-text">Perfil &nbsp;: &nbsp;</strong>A<br>
+                            <strong class="casos-exito-text">Características &nbsp;: &nbsp;</strong><br>
+                            <span>Clientes que posee Tarjetas de categoria Clasica y Gold.</span><br>
+                            <span>Clientes con edades entre los 18 y 35 años de edad.</span><br>
+                            <span>Clientes que adeudan entre el 91% hasta el 100% del credito o en algunos caso tienden
+                                a sobregirarse.</span><br>
+                            <span>Clientes ubicados en departamentos de la Region Sur.</span><br>
+                            <span>Clientes del sexo Masculino.</span><br>
+                            <span>Clientes con una antiguedad de uso con el producto entre 1 a 17 meses.</span><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed casos-exito-text" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Banco 3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <strong class="casos-exito-text">Tipo &nbsp;: &nbsp;</strong>SAC<br>
+                            <strong class="casos-exito-text">Campaña &nbsp;: &nbsp;</strong>Retenciones<br>
+                            <strong class="casos-exito-text">Indicador &nbsp;: &nbsp;</strong>%Retención<br>
+                            <strong class="casos-exito-text">Pre-implementación &nbsp;: &nbsp;</strong>36,2%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso7"></div>
+                            </div>
+                            <strong class="casos-exito-text">Post-Implementación &nbsp;: &nbsp;</strong>43,2%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso8"></div>
+                            </div>
+                            <strong class="casos-exito-text">Porcentaje de Variación &nbsp;: &nbsp;</strong>19,3%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso9"></div>
+                            </div>
+                            <strong class="casos-exito-text">Perfil &nbsp;: &nbsp;</strong>A<br>
+                            <strong class="casos-exito-text">Características &nbsp;: &nbsp;</strong><br>
+                            <span>Clientes del Segmento Preferencial.</span><br>
+                            <span>Clientes con cupos de TDC superior a los 3 millones de pesos.</span><br>
+                            <span>Clientes con Categoria de TDC Gold, Black, Platinum.</span><br>
+                            <span>Clientes con ocupaciones de Empleado-Socio.</span><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed casos-exito-text" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            Aseguradora 1
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <strong class="casos-exito-text">Tipo &nbsp;: &nbsp;</strong>Venta - Ramo Vida y
+                            Generales<br>
+                            <strong class="casos-exito-text">Campaña &nbsp;: &nbsp;</strong>Bienvenida<br>
+                            <strong class="casos-exito-text">Indicador &nbsp;: &nbsp;</strong>Efectividad<br>
+                            <strong class="casos-exito-text">Pre-implementación &nbsp;: &nbsp;</strong>15,3%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso10"></div>
+                            </div>
+                            <strong class="casos-exito-text">Post-Implementación &nbsp;: &nbsp;</strong>19,4%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso11"></div>
+                            </div>
+                            <strong class="casos-exito-text">Porcentaje de Variación &nbsp;: &nbsp;</strong>26,8%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso12"></div>
+                            </div>
+                            <strong class="casos-exito-text">Perfil &nbsp;: &nbsp;</strong>A<br>
+                            <strong class="casos-exito-text">Características &nbsp;: &nbsp;</strong><br>
+                            <span>Clientes de genero Masculino.</span><br>
+                            <span>Clientes ubicados en la Región Caribe.</span><br>
+                            <span>Clientes con una antiguedad en productos financieros entre 0 a 6 meses.</span><br>
+                            <span>Clientes con ocupación de Desempleado u "Otro".</span><br>
+                            <span>Clientes con rango de edades entre los 18 y 30 años..</span><br>
+                            <span>Cliente con un estado civil Viudo.</span><br>
+                            <span>Clientes ubicados en departamento que segun DANE posee Tasa de Desempleo
+                                Media.</span><br>
+                            <span>Clientes con categoria de Tarjeta "Aliada".</span><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed casos-exito-text" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                            aria-controls="collapseFive">
+                            Aseguradora 2
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <strong class="casos-exito-text">Tipo &nbsp;: &nbsp;</strong>Venta - Ramo Vida y
+                            Generales<br>
+                            <strong class="casos-exito-text">Campaña &nbsp;: &nbsp;</strong>Stock<br>
+                            <strong class="casos-exito-text">Indicador &nbsp;: &nbsp;</strong>Efectividad<br>
+                            <strong class="casos-exito-text">Pre-implementación &nbsp;: &nbsp;</strong>3,37%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso13"></div>
+                            </div>
+                            <strong class="casos-exito-text">Post-Implementación &nbsp;: &nbsp;</strong>4,5%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso14"></div>
+                            </div>
+                            <strong class="casos-exito-text">Porcentaje de Variación &nbsp;: &nbsp;</strong>33,5%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso15"></div>
+                            </div>
+                            <strong class="casos-exito-text">Perfil &nbsp;: &nbsp;</strong>A<br>
+                            <strong class="casos-exito-text">Características &nbsp;: &nbsp;</strong><br>
+                            <span>Clientes con edades comprendidas entre 45 y 60 años.</span><br>
+                            <span>Clientes de la región Caribe.</span><br>
+                            <span>Clientes con antiguedad de productos bancarios entre 12 y 36 meses.</span><br>
+                            <span>Clientes con ocupación de Independientes, Socio-Empleado, Amas de casa.</span><br>
+                            <span>Cliente de genero Masculino.</span><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed casos-exito-text" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                            aria-controls="collapseSix">
+                            Aseguradora 3
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <strong class="casos-exito-text">Tipo &nbsp;: &nbsp;</strong>Venta - Multiproducto<br>
+                            <strong class="casos-exito-text">Campaña &nbsp;: &nbsp;</strong>Stock<br>
+                            <strong class="casos-exito-text">Indicador &nbsp;: &nbsp;</strong>Efectividad<br>
+                            <strong class="casos-exito-text">Pre-implementación &nbsp;: &nbsp;</strong>2%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso16"></div>
+                            </div>
+                            <strong class="casos-exito-text">Post-Implementación &nbsp;: &nbsp;</strong>4%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso17"></div>
+                            </div>
+                            <strong class="casos-exito-text">Porcentaje de Variación &nbsp;: &nbsp;</strong>100%<br>
+                            <div class="barra-progreso">
+                                <div class="progreso" id="progreso18"></div>
+                            </div>
+                            <strong class="casos-exito-text">Perfil &nbsp;: &nbsp;</strong>D<br>
+                            <strong class="casos-exito-text">Características &nbsp;: &nbsp;</strong><br>
+                            <span>Implementación IR.</span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

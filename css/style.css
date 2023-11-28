@@ -612,6 +612,355 @@ body {
 #content main .table-data .todo .todo-list li:last-child {
     margin-bottom: 0;
 }
+
+/* Acordeon */
+.casos-exito {
+    margin-top: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #cfd1ff9b !important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+        var(--bs-accordion-border-color);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: var(--bs-accordion-btn-focus-border-color);
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.casos-exito-text {
+    color: rgb(115, 115, 115) !important;
+    font-weight: 500;
+}
+
+.barra-progreso {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.progreso {
+    height: 20px;
+    background-color: #4caf50;
+    text-align: right;
+    line-height: 20px;
+    color: white;
+    border-radius: 5px;
+    transition: width 2s;
+}
+
+#progreso1 {
+    width: 0%;
+}
+
+#progreso2 {
+    width: 0%;
+}
+
+#progreso3 {
+    width: 0%;
+}
+
+#progreso4 {
+    width: 0%;
+}
+
+#progreso5 {
+    width: 0%;
+}
+
+#progreso6 {
+    width: 0%;
+}
+
+#progreso7 {
+    width: 0%;
+}
+
+#progreso8 {
+    width: 0%;
+}
+
+#progreso9 {
+    width: 0%;
+}
+
+#progreso10 {
+    width: 0%;
+}
+
+#progreso11 {
+    width: 0%;
+}
+
+#progreso12 {
+    width: 0%;
+}
+
+#progreso13 {
+    width: 0%;
+}
+
+#progreso14 {
+    width: 0%;
+}
+
+#progreso15 {
+    width: 0%;
+}
+
+#progreso16 {
+    width: 0%;
+}
+
+#progreso17 {
+    width: 0%;
+}
+
+#progreso18 {
+    width: 0%;
+}
+
+/* Animaciones */
+@keyframes cargaProgreso1 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 12%;
+    }
+}
+
+@keyframes cargaProgreso2 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 17%;
+    }
+}
+
+@keyframes cargaProgreso3 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+@keyframes cargaProgreso4 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 25%;
+    }
+}
+
+@keyframes cargaProgreso5 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes cargaProgreso6 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 22%;
+    }
+}
+
+@keyframes cargaProgreso7 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 36%;
+    }
+}
+
+@keyframes cargaProgreso8 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 43%;
+    }
+}
+
+@keyframes cargaProgreso9 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 19%;
+    }
+}
+
+@keyframes cargaProgreso10 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 15%;
+    }
+}
+
+@keyframes cargaProgreso11 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 19%;
+    }
+}
+
+@keyframes cargaProgreso12 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 27%;
+    }
+}
+
+@keyframes cargaProgreso13 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 4%;
+    }
+}
+
+@keyframes cargaProgreso14 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 5%;
+    }
+}
+
+@keyframes cargaProgreso15 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 33%;
+    }
+}
+
+@keyframes cargaProgreso16 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 2%;
+    }
+}
+
+@keyframes cargaProgreso17 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 4%;
+    }
+}
+
+@keyframes cargaProgreso18 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#progreso1 {
+    animation: cargaProgreso1 2s ease-out forwards;
+}
+
+#progreso2 {
+    animation: cargaProgreso2 2s ease-out forwards;
+}
+
+#progreso3 {
+    animation: cargaProgreso3 2s ease-out forwards;
+}
+
+#progreso4 {
+    animation: cargaProgreso4 2s ease-out forwards;
+}
+
+#progreso5 {
+    animation: cargaProgreso5 2s ease-out forwards;
+}
+
+#progreso6 {
+    animation: cargaProgreso6 2s ease-out forwards;
+}
+
+#progreso7 {
+    animation: cargaProgreso7 2s ease-out forwards;
+}
+
+#progreso8 {
+    animation: cargaProgreso8 2s ease-out forwards;
+}
+
+#progreso9 {
+    animation: cargaProgreso9 2s ease-out forwards;
+}
+
+#progreso10 {
+    animation: cargaProgreso10 2s ease-out forwards;
+}
+
+#progreso11 {
+    animation: cargaProgreso11 2s ease-out forwards;
+}
+
+#progreso12 {
+    animation: cargaProgreso12 2s ease-out forwards;
+}
+
+#progreso13 {
+    animation: cargaProgreso13 2s ease-out forwards;
+}
+
+#progreso14 {
+    animation: cargaProgreso14 2s ease-out forwards;
+}
+
+#progreso15 {
+    animation: cargaProgreso15 2s ease-out forwards;
+}
+
+#progreso16 {
+    animation: cargaProgreso16 2s ease-out forwards;
+}
+
+#progreso17 {
+    animation: cargaProgreso17 2s ease-out forwards;
+}
+
+#progreso18 {
+    animation: cargaProgreso18 2s ease-out forwards;
+}
+
 /* MAIN */
 /* CONTENT */
 
