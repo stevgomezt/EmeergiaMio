@@ -1,0 +1,49 @@
+.position1 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 9%;
+    left: 32%;
+}
+
+.position2 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 9%;
+    left: 57%;
+}
+
+.position3 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 21%;
+    left: 75%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 41%;
+    left: 75%;
+}
+
+.position5 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 52%;
+    left: 58%;
+}

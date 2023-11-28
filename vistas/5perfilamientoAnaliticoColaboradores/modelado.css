@@ -1,0 +1,54 @@
+/* @media (min-width: 1367px) and (max-width: 1919px) { */
+.position1 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 11%;
+    left: 56%;
+}
+
+.position2 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 45%;
+    left: 34%;
+}
+
+.position3 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 45%;
+    left: 75%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 71%;
+    left: 34%;
+}
+
+.position5 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 10%;
+    top: 71%;
+    left: 75%;
+}
+.info-modelado {
+    display: flex;
+    justify-content: space-evenly;
+}

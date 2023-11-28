@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="modelado.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Emergia</title>
+</head>
+
+<body>
+    <section id="sidebar">
+        <a href="/index.html" class="brand">
+            <img src="/img/emergia/logo.svg" alt="" class="img-full" />
+            <img src="/img/emergia/icono.png" alt="" class="img-redu" />
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="/index.html">
+                    <i class="bx bxs-home"></i>
+                    <span class="text">Inicio</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="/vistas/2analiticaAvanzada/analiticaAvanzada.html">
+                    <i class="bx bxs-pie-chart-alt-2"></i>
+                    <span class="text">Analítica <br />
+                        Avanzada</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/1modeloAnaliticaContactabilidad/modeloAnaliticaContactabilidad.html">
+                    <i class="bx bxs-bar-chart-alt-2"></i>
+                    <span class="text">Modelo <br />
+                        Analítica Contactabilidad</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/4procesoDigitalIntegral/procesoDigitalIntegral.html">
+                    <i class="bx bxs-message-dots"></i>
+                    <span class="text">Proceso <br />
+                        Digital Integral</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/3marcadorDinamico/marcadorDinamico.html">
+                    <i class="bx bxs-phone-call"></i>
+                    <span class="text">Marketing <br />
+                        Analitico</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/6moduloAnaliticoComercial/moduloAnaliticoComercial.html">
+                    <i class="bx bx-user-plus"></i>
+                    <span class="text">Módulo Analítico<br />
+                        Comercial</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/5perfilamientoAnaliticoColaboradores/perfilamientoAnaliticoColaboradores.html">
+                    <i class="bx bx-grid"></i>
+                    <span class="text">Perfilamiento <br />
+                        Analítico Colaborador</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="content">
+        <nav>
+            <i class="bx bx-menu"></i>
+            <form action="#">
+                <div class="form-input">
+                    <button type="submit" class="search-btn" style="display: none">
+                        <i class="bx bx-search"></i>
+                    </button>
+                </div>
+            </form>
+        </nav>
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#"><a href="#">Analítica Avanzada</a></a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="#">Modelado</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="analiticaAvanzada.html">Volver
+                                <i class="fa-solid fa-rotate-left" style="color: #757575;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="table-data">
+                <div class="order image-container relative">
+                    <img src="/img/modulos/modeloAnalitica/modelado.png" alt="" class="responsive-image" />
+                    <div data-toggle="modal" data-target="#myModal1" class="position1 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal2" class="position2 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal3" class="position3 clickable-div"></div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Selección del Algoritmo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Entrada</h6>
+                    <p>
+                        • Base de datos de entrenamiento balanceada.
+                        <br>
+                        • Base de datos de prueba balanceada.
+                        <br>
+                        • Base de datos de validación.
+                    </p>
+                    <h6>Proceso</h6>
+                    <div class="info-modelado">
+                        <div>
+                            <p>
+                                <strong>Regresión:</strong>
+                                <br>
+                                • Regresión Lineal.
+                                <br>
+                                • Regresión Polinomial.
+                                <br>
+                                • Arboles de Decisión.
+                                <br>
+                                • Series de Tiempo.
+                                <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Clasificación:</strong>
+                                <br>
+                                • Regresión Logística.
+                                <br>
+                                • Arboles de decisión / Random Forest.
+                                <br>
+                                • XGBoosting.
+                            </p>
+                        </div>
+                    </div>
+                    <h6>Salida</h6>
+                    <p>
+                        • Base de datos de entrenamiento balanceada.
+                        <br>
+                        • Base de datos de prueba balanceada.
+                        <br>
+                        • Base de datos de validación.
+                        <br>
+                        • Algorítmo a usar.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrenamiento del Modelo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Entrada</h6>
+                    <p>
+                        • Base de datos de entrenamiento balanceada.
+                        <br>
+                        • Base de datos de prueba balanceada.
+                        <br>
+                        • Base de datos de validación.
+                    </p>
+                    <h6>Proceso</h6>
+                    <p>
+                        • Entrenamiento del modelo base.
+                        <br>
+                        • Afinamiento de hiper parametros.
+                        <br>
+                        • XGBoosting.
+                    </p>
+                    <h6>Salida</h6>
+                    <p>
+                        • Modelo entrenado.
+                        <br>
+                        • Base de datos de validación.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Evaluación del Modelo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Entrada</h6>
+                    <p>
+                        • Modelo entrenado.
+                        <br>
+                        • Base de datos de prueba.
+                    </p>
+                    <h6>Proceso</h6>
+                    <p>
+                        • Prueba del modelo con base de datos de validación.
+                        <br>
+                        • Uso de Matrices de Confusión, Curva ROC.
+                        <br>
+                        • Evaluación de metricas: precisión, sensibilidad, especificidad, kappa, R cuadrado, p-values,
+                        etc.
+                    </p>
+                    <h6>Salida</h6>
+                    <p>
+                        • Modelo entrenado ajustado.
+                        <br>
+                        • Base de datos de validación.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/modals.js"></script>
+</body>
+
+</html>

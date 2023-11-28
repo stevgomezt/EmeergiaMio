@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="perfilamientoAnaliticoColaboradores.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Emergia</title>
+</head>
+
+<body>
+    <section id="sidebar">
+        <a href="/index.html" class="brand">
+            <img src="/img/emergia/logo.svg" alt="" class="img-full" />
+            <img src="/img/emergia/icono.png" alt="" class="img-redu" />
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="/index.html">
+                    <i class="bx bxs-home"></i>
+                    <span class="text">Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/2analiticaAvanzada/analiticaAvanzada.html">
+                    <i class="bx bxs-pie-chart-alt-2"></i>
+                    <span class="text">Analítica <br />
+                        Avanzada</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/1modeloAnaliticaContactabilidad/modeloAnaliticaContactabilidad.html">
+                    <i class="bx bxs-bar-chart-alt-2"></i>
+                    <span class="text">Modelo <br />
+                        Analítica Contactabilidad</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/4procesoDigitalIntegral/procesoDigitalIntegral.html">
+                    <i class="bx bxs-message-dots"></i>
+                    <span class="text">Proceso <br />
+                        Digital Integral</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/3marcadorDinamico/marcadorDinamico.html">
+                    <i class="bx bxs-phone-call"></i>
+                    <span class="text">Marketing <br />
+                        Analitico</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/6moduloAnaliticoComercial/moduloAnaliticoComercial.html">
+                    <i class="bx bx-user-plus"></i>
+                    <span class="text">Módulo Analítico<br />
+                        Comercial</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="/vistas/5perfilamientoAnaliticoColaboradores/perfilamientoAnaliticoColaboradores.html">
+                    <i class="bx bx-grid"></i>
+                    <span class="text">Perfilamiento <br />
+                        Analítico Colaborador</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="content">
+        <nav>
+            <i class="bx bx-menu"></i>
+            <form action="#">
+                <div class="form-input">
+                    <button type="submit" class="search-btn" style="display: none">
+                        <i class="bx bx-search"></i>
+                    </button>
+                </div>
+            </form>
+        </nav>
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Perfilamiento Analítico Colaborador</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="#">MAC</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="table-data">
+                <div class="order image-container relative">
+                    <img src="/img/modulos/perfilamientoAnalitico/perfilamientoColaboradores.png" alt=""
+                        class="responsive-image" />
+                    <img src="/img/modulos/adicionales/5.png" alt="" class="adicional-image" />
+                    <div data-toggle="modal" data-target="#myModal1" class="position1 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal2" class="position2 clickable-div"></div>
+                    <!-- <div data-toggle="modal" data-target="#myModal3" class="position3 clickable-div"></div> -->
+                    <div data-toggle="modal" data-target="#myModal4" class="position4 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal5" class="position5 clickable-div"></div>
+                    <div><a href="/vistas/5perfilamientoAnaliticoColaboradores/preparacionDatos.html"
+                            class="position6"></a>
+                    </div>
+                    <div><a href="/vistas/5perfilamientoAnaliticoColaboradores/modelado.html" class="position7"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Identificación y Comprensión de los Datos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Entrada</h6>
+                    <p>
+                        Base de datos en excel, archivo CSV o tabla de la base de datos con todas las variables.
+                    </p>
+                    <h6>Proceso</h6>
+                    <p>
+                        • Periodicidad de entrega de la base.
+                        <br>
+                        • Cantidad de registros.
+                        <br>
+                        • Campos que vienen en las bases de datos.
+                        <br>
+                        • Variables sociodemográficas.
+                        <br>
+                        • Identificación de indicador óptimo de SPH.
+                    </p>
+                    <h6>Salida</h6>
+                    <p>
+                        Información del negocio.
+                        Base de datos en excel, archivo CSV o tabla de la base de datos con todas las variables.
+                        SPH óptimo.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Validación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Entrada</h6>
+                    <p>
+                        • Modelo entrenado ajustado.
+                        <br>
+                        • Base de datos de validación.
+                        <br>
+                        • Listado de segmentos definidos.
+                    </p>
+                    <h6>Proceso</h6>
+                    <p>
+                        • Prueba del modelo de clasificación con base de datos de validación.
+                        <br>
+                        • Uso de Matrices de Confusión, Curva ROC.
+                        <br>
+                        • Evaluación de métricas: precisión, sensibilidad, especificidad, kappa, etc.
+                        <br>
+                        • Generación de reglas para el modelo de clasificación.
+                        <br>
+                        • Validación entre el modelo de clasificación y el modelo de segmentación.
+                    </p>
+                    <h6>Salida</h6>
+                    <p>
+                        • Listado de segmentos definidos.
+                        <br>
+                        • Reglas del modelo de clasificación.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Generación del perfil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Entrada</h6>
+                    <p>
+                        • Listado de segmentos definidos.
+                        <br>
+                        • Reglas del modelo de clasificación.
+                    </p>
+                    <h6>Proceso</h6>
+                    <p>
+                        Identificación de los segmentos y las reglas de clasificación más importantes.
+                    </p>
+                    <h6>Salida</h6>
+                    <p>
+                        Perfil de colaboradores con base en los segmentos y las reglas definidas.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Control y Seguimiento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Entrada</h6>
+                    <p>
+                        Resultados de la implementación del perfilamiento.
+                    </p>
+                    <h6>Proceso</h6>
+                    <p>
+                        • Se lleva a cabo control y seguimiento de la implementación de la estrategia y gestión de las
+                        base de datos a través de los distintos dash creados para tal fin por parte de área de
+                        reporting.
+                        <br>
+                        • Se elaboran analíticos internos e indicadores claves para mayor control.
+                        <br>
+                        • Se obtienen conclusiones y hallazgos del control y seguimiento para su análisis y
+                        retroalimentación.
+                    </p>
+                    <h6>Salida</h6>
+                    <p>
+                        Dash, analíticos internos, conclusiones y retroalimentación.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/modals.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="guionesDinamicos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Emergia</title>
+</head>
+
+<body>
+    <section id="sidebar">
+        <a href="/index.html" class="brand">
+            <img src="/img/emergia/logo.svg" alt="" class="img-full" />
+            <img src="/img/emergia/icono.png" alt="" class="img-redu" />
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="/index.html">
+                    <i class="bx bxs-home"></i>
+                    <span class="text">Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/2analiticaAvanzada/analiticaAvanzada.html">
+                    <i class="bx bxs-pie-chart-alt-2"></i>
+                    <span class="text">Analítica <br />
+                        Avanzada</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/1modeloAnaliticaContactabilidad/modeloAnaliticaContactabilidad.html">
+                    <i class="bx bxs-bar-chart-alt-2"></i>
+                    <span class="text">Modelo <br />
+                        Analítica Contactabilidad</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/4procesoDigitalIntegral/procesoDigitalIntegral.html">
+                    <i class="bx bxs-message-dots"></i>
+                    <span class="text">Proceso <br />
+                        Digital Integral</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/3marcadorDinamico/marcadorDinamico.html">
+                    <i class="bx bxs-phone-call"></i>
+                    <span class="text">Marketing <br />
+                        Analitico</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="/vistas/6moduloAnaliticoComercial/moduloAnaliticoComercial.html">
+                    <i class="bx bx-user-plus"></i>
+                    <span class="text">Módulo Analítico<br />
+                        Comercial</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/5perfilamientoAnaliticoColaboradores/perfilamientoAnaliticoColaboradores.html">
+                    <i class="bx bx-grid"></i>
+                    <span class="text">Perfilamiento <br />
+                        Analítico Colaborador</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="content">
+        <nav>
+            <i class="bx bx-menu"></i>
+            <form action="#">
+                <div class="form-input">
+                    <button type="submit" class="search-btn" style="display: none">
+                        <i class="bx bx-search"></i>
+                    </button>
+                </div>
+            </form>
+        </nav>
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Módulo Analítico Comercial</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="#">Guión Dinámico</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="moduloAnaliticoComercial.html">Volver
+                                <i class="fa-solid fa-rotate-left" style="color: #757575;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="table-data">
+                <div class="order image-container relative">
+                    <img src="/img/modulos/guionesAdaptativos/guionDinamico.png" alt="" class="responsive-image" />
+                    <div data-toggle="modal" data-target="#myModal1" class="position1 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal2" class="position2 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal3" class="position3 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal4" class="position4 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal5" class="position5 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal6" class="position6 clickable-div"></div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Entrega de material</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descripción</h6>
+                    <p>
+                        • Entrega Material
+                        <br>
+                        • BBDD
+                        <br>
+                        • PPT producto
+                        <br>
+                        • PPT formación y capacitación
+                        <br>
+                        • Guiones
+                        <br>
+                        • Grabaciones de venta y no venta
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Análisis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descripción</h6>
+                    <p>
+                        Análisis:
+                        • Se realiza un análisis de la BBDD para determinar
+                        las variables a incluir en el diseño de los script; estos enfocados en la comprensión del
+                        consumidor que es donde radica el éxito de la estrategia.
+                        <br>
+                        • Estudio de las grabaciones de venta y no venta para comprender la interacción asesor•cliente.
+                        <br>
+                        • Estudio del guión de venta para detectar errores, en caso de que existan.
+                        <br>
+                        • Focus: Con áreas de apoyo para determinar pautas de
+                        formación, seguimiento y horarios
+                        <br>
+                        • Análisis del producto, planes, condiciones para enfocar el script a describir los beneficios
+                        y cubrir necesidades.
+                    </p>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Propuesta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descripción</h6>
+                    <p>
+                        Propuesta
+                        <br>
+                        • Una vez que identificamos,
+                        investigamos y analizamos, podemos obtener grandes hallazgos de necesidades insatisfechas
+                        que pueden dar origen a grandes ideas, productos y beneficios que se tienen en
+                        cuenta en el diseño de uno o varios script enfocados en construir una relación
+                        de lealtad Con los clientes, brindar un mejor servicio y favorecer las ventas,
+                        aplicando una metodología consultiva que se basa en el sondeo, perfilamiento y
+                        sensibilización logrando entender a cada cliente como un mundo diferente.
+                        <br>
+                        • Utilizamos la técnica del
+                        corbatín como método formativo, esta permite analizar por medio de palabras el
+                        hemisferio cerebral más desarrollado (racional-emocional) obteniendo una
+                        completa comprensión de los hobbies, gustos e intereses del comprador al lograr
+                        una comunicación fluida y asertiva.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Propuesta al servicio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descripción</h6>
+                    <p>
+                        Entrega de la propuesta al servicio:
+                        <br>
+                        • Revisión por gerentes de servicio para garantizar
+                        que cumpla con los parámetros exigidos.
+                        <br>
+                        • Se hacen ajustes acordes al feedback que entrega
+                        el servicio y nuevamente pasa a verificación.
+                        <br>
+                        • Al contar con la aprobación de los gerentes del
+                        servicio es enviada al cliente para revisión y ajuste final.
+                        <br>
+                        • Una vez aceptada se procede con el envío a el
+                        área de implementación
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Selección Formación Acompañamiento grupo piloto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descripción</h6>
+                    <p>
+                        Selección y formación del grupo piloto
+                        <br>
+                        • Según los indicadores de los
+                        agentes se realiza una segmentación en cuartiles del cual se obtiene el grupo piloto y grupo
+                        control.
+                        <br>
+                        • Elegimos a los agentes a través de un informe de
+                        productividad y modelo de dispersión, realizamos la selección del grupo piloto
+                        con el fin de impactar los asesores con el performance mas bajo.
+                        <br>
+                        • Se forma el equipo piloto con base al nuevo guion, manual de sondeo y objeciones
+                        <br>
+                        • Ejercicios prácticos como roleplay para afianzar habilidades comunicativas.
+                        <br>
+                        • Evaluación escrita: Como instrumento de medición a los agentes; cuyo propósito es
+                        demostrar el desarrollo de las habilidades requeridas.
+                        <br>
+                        • En producción se realiza el acompañamiento en
+                        piso, auditorias en línea, monitoreo, y retroalimentación para detectar las
+                        oportunidades de mejora y corregirlas en
+                        el menor tiempo.
+                        <br>
+                        • Formación a los analistas CX y áreas de apoyo
+                        del servicio con el objetivo de garantizar la continuidad de la estrategia.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Medición y monitoreo de resultados</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descripción</h6>
+                    <p>
+                        Medición y monitoreo de resultados
+                        <br>
+                        • Teniendo en cuenta los informes generados a través de Presence
+                        se hace una comparación entre los datos obtenidos por Grupo piloto Vs Grupo Control para medir
+                        el impacto de las acciones e
+                        <br>
+                        • identificar las oportunidades de mejora
+                        <br>
+                        • Diariamente realizamos una medición y monitoreo
+                        de la evolución del indicador clave que es el SPH.
+                        <br>
+                        • Solicitamos un informe semanal de auditorías y
+                        planes de acción a la operación como garantía de que se cumple con la
+                        estrategia por parte de los agentes.
+                        <br>
+                        • Realizamos una medición y comparación quincenal
+                        donde se tiene en cuenta SPH partida y el SPH final tanto del grupo piloto y grupo control
+                        Con base a los resultados y solo si es necesario
+                        se programa una re calibración y refuerzo a la formación.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/modals.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.position1 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 8%;
+    top: 24%;
+    left: 42%;
+}
+
+.position2 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 8%;
+    top: 25%;
+    left: 71%;
+}
+
+.position3 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 8%;
+    top: 75%;
+    left: 42%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 8%;
+    top: 75%;
+    left: 72%;
+}

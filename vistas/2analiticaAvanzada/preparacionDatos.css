@@ -1,0 +1,40 @@
+/* @media (min-width: 1367px) and (max-width: 1919px) { */
+.position1 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 13%;
+    left: 57%;
+}
+
+.position2 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 34%;
+    left: 57%;
+}
+
+.position3 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 59%;
+    left: 57%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 83%;
+    left: 57%;
+}

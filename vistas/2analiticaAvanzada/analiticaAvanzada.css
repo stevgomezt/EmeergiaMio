@@ -1,0 +1,70 @@
+/* @media (min-width: 1367px) and (max-width: 1919px) { */
+.position1 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 20%;
+    left: 54%;
+}
+
+.position2 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 59%;
+    left: 61%;
+}
+
+.position3 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 74%;
+    left: 57%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 82%;
+    left: 46%;
+}
+
+.position5 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 68%;
+    left: 36%;
+}
+
+.position6 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 32%;
+    left: 59%;
+}
+
+.position7 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 6%;
+    height: 7%;
+    top: 46%;
+    left: 62%;
+}

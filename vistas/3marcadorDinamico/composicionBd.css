@@ -1,0 +1,76 @@
+.position1 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 5%;
+    height: 8%;
+    top: 8%;
+    left: 33%;
+}
+
+.position2 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 5%;
+    height: 8%;
+    top: 24%;
+    left: 33%;
+}
+
+.position3 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 5%;
+    height: 8%;
+    top: 39%;
+    left: 33%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 5%;
+    height: 8%;
+    top: 50%;
+    left: 23%;
+}
+
+.position5 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 8%;
+    top: 54%;
+    left: 76%;
+}
+.position6 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 5%;
+    height: 8%;
+    top: 73%;
+    left: 42%;
+}
+.position7 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 8%;
+    top: 73%;
+    left: 69%;
+}
+.position8 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 5%;
+    height: 8%;
+    top: 87%;
+    left: 56%;
+}

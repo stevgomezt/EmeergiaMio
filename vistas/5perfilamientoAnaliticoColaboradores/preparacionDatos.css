@@ -1,0 +1,100 @@
+/* @media (min-width: 1367px) and (max-width: 1919px) { */
+.position1 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 37%;
+    left: 31%;
+}
+
+.position2 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 37%;
+    left: 55%;
+}
+
+.position3 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 55%;
+    left: 42%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 55%;
+    left: 42%;
+}
+
+.position4 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 74%;
+    left: 42%;
+}
+
+.position5 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 89%;
+    left: 42%;
+}
+
+.position6 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 37%;
+    left: 76%;
+}
+
+.position7 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 55%;
+    left: 76%;
+}
+
+.position8 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 74%;
+    left: 76%;
+}
+
+.position9 {
+    position: absolute;
+    /* border: 1px red solid; */
+    z-index: 1;
+    width: 8%;
+    height: 7%;
+    top: 89%;
+    left: 76%;
+}

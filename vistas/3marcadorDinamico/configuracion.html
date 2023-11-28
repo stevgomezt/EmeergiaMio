@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="configuracion.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Emergia</title>
+</head>
+
+<body>
+    <section id="sidebar">
+        <a href="/index.html" class="brand">
+            <img src="/img/emergia/logo.svg" alt="" class="img-full" />
+            <img src="/img/emergia/icono.png" alt="" class="img-redu" />
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="/index.html">
+                    <i class="bx bxs-home"></i>
+                    <span class="text">Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/2analiticaAvanzada/analiticaAvanzada.html">
+                    <i class="bx bxs-pie-chart-alt-2"></i>
+                    <span class="text">Analítica <br />
+                        Avanzada</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/1modeloAnaliticaContactabilidad/modeloAnaliticaContactabilidad.html">
+                    <i class="bx bxs-bar-chart-alt-2"></i>
+                    <span class="text">Modelo <br />
+                        Analítica Contactabilidad</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/4procesoDigitalIntegral/procesoDigitalIntegral.html">
+                    <i class="bx bxs-message-dots"></i>
+                    <span class="text">Proceso <br />
+                        Digital Integral</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="/vistas/3marcadorDinamico/marcadorDinamico.html">
+                    <i class="bx bxs-phone-call"></i>
+                    <span class="text">Marketing <br />
+                        Analitico</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/6moduloAnaliticoComercial/moduloAnaliticoComercial.html">
+                    <i class="bx bx-user-plus"></i>
+                    <span class="text">Módulo Analítico<br />
+                        Comercial</span>
+                </a>
+            </li>
+            <li>
+                <a href="/vistas/5perfilamientoAnaliticoColaboradores/perfilamientoAnaliticoColaboradores.html">
+                    <i class="bx bx-grid"></i>
+                    <span class="text">Perfilamiento <br />
+                        Analítico Colaborador</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="content">
+        <nav>
+            <i class="bx bx-menu"></i>
+            <form action="#">
+                <div class="form-input">
+                    <button type="submit" class="search-btn" style="display: none">
+                        <i class="bx bx-search"></i>
+                    </button>
+                </div>
+            </form>
+        </nav>
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Marketing Analitico</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="#">Configuración</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i></li>
+                        <li>
+                            <a class="active" href="marcadorDinamico.html">Volver
+                                <i class="fa-solid fa-rotate-left" style="color: #757575;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="table-data">
+                <div class="order image-container relative">
+                    <img src="/img/modulos/marcadorDinamico/configuracion.png" alt="" class="responsive-image" />
+                    <div data-toggle="modal" data-target="#myModal1" class="position1 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal2" class="position2 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal3" class="position3 clickable-div"></div>
+                    <div data-toggle="modal" data-target="#myModal4" class="position4 clickable-div"></div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Configuración Usuarios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Concepto</h6>
+                    <p>
+                        Módulo de configuración sobre usuarios del sistema, que posee 3 acciones: crear, modificar o
+                        eliminar.
+                    </p>
+                    <h6>Descripción</h6>
+                    <p>
+                        • Nombre: Nombre del usuario del sistema.
+                        <br>
+                        • Usuario / Contraseña: Login y clave de acceso que se asignan al usuario con el fin de
+                        autenticarse en el sistema.
+                        <br>
+                        • Perfil: lista de roles o perfiles que se asignan a un usuario en el sistema, actualmente el
+                        sistema de marcación posee dos perfiles, Administrador que tiene acceso a todos los módulos del
+                        sistema y que permite realizar la configuración del sistema de marcación y Operador que permite
+                        realizar la creación de reglas y de aplicación de estas a las diferentes bases de datos de un
+                        servicio de Presence.
+                        <br>
+                        • Código Analítico: lista de códigos analíticos configurados el cual se le asignará a un usuario
+                        y
+                        es el que le permitirá acceso a los servicios bajo ese código analítico.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Configuración Criterios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Concepto</h6>
+                    <p>
+                        Módulo de configuración sobre los criterios por los que el Marketing Analitico podrá realizar
+                        los
+                        filtros y priorizaciones en una base especifica de un servicio de Presence.
+                    </p>
+                    <h6>Descripción</h6>
+                    <p>
+                        • Designación: Nombre o descripción dado al campo o criterio que será utilizado para el mapeo y
+                        creación de las reglas.
+                        <br>
+                        • Texto: Texto cómo será visualizado en la aplicación del criterio y cómo será renderizado en la
+                        interfaz.
+                        <br>
+                        • Orden: Disposición como se mostrará el criterio en la lista de campos de la aplicación de
+                        criterios.
+                        <br>
+                        • Tipo: el sistema permite tener criterios de tipo Texto y de tipo Selección. El sistema
+                        realizará
+                        la renderización correspondiente en el módulo de aplicación de criterios.
+                        <br>
+                        • Activo: Indica si el campo estará disponible en el módulo de aplicación de criterios.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Configuración Codigos Analiticos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Concepto</h6>
+                    <p>
+                        Módulo de configuración sobre la lista de códigos analíticos que se asignan a cada servicio de
+                        Emergia, que a su vez se asociará un usuario configurado.
+                    </p>
+                    <h6>Descripción</h6>
+                    <p>
+                        • Designación: Nombre o descripción dado al campo o criterio que será utilizado para el mapeo y
+                        creación de las reglas.
+                        <br>
+                        • Texto: Texto cómo será visualizado en la aplicación del criterio y cómo será renderizado en la
+                        interfaz.
+                        <br>
+                        • Orden: Disposición como se mostrará el criterio en la lista de campos de la aplicación de
+                        criterios.
+                        <br>
+                        • Tipo: el sistema permite tener criterios de tipo Texto y de tipo Selección. El sistema
+                        realizará
+                        la renderización correspondiente en el módulo de aplicación de criterios.
+                        <br>
+                        • Activo: Indica si el campo estará disponible en el módulo de aplicación de criterios.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Configuración Mapeo Campos Script</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Concepto</h6>
+                    <p>
+                        Módulo donde se realiza la configuración del mapeo entre los criterios que son configurados en
+                        el marcador, contra los campos ORI de una tabla del script, este módulo se conecta a las base de
+                        datos de script de Presence de acuerdo al código analítico que está configurado.
+                    </p>
+                    <h6>Descripción</h6>
+                    <p>
+                        Se realiza la selección de un código analítico y es allí cuando el sistema cargará las tablas de
+                        script que pertenecen al código antes mencionado.
+                        Se despliega un popup con la lista de criterios disponibles y los campos ORI de la tabla
+                        seleccionada con el fin de ir agregando el mapeo de cada campo correspondiente.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn-logo-icono">
+                        <img class="logo-icono" src="/img/emergia/icono.png" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/modals.js"></script>
+</body>
+
+</html>
